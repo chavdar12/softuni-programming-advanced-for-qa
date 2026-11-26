@@ -1,0 +1,42 @@
+<Solution>
+  <Folder Name="/Ex001/">
+    <Project Path="Ex001/Ex001.csproj" />
+    <Project Path="Ex001/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex002/">
+    <Project Path="Ex002/Ex002.csproj" />
+    <Project Path="Ex002/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex003/">
+    <Project Path="Ex003/Ex003.csproj" />
+    <Project Path="Ex003/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex004/">
+    <Project Path="Ex004/Ex004.csproj" />
+    <Project Path="Ex004/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex005/">
+    <Project Path="Ex005/Ex005.csproj" />
+    <Project Path="Ex005/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex006/">
+    <Project Path="Ex006/Ex006.csproj" />
+    <Project Path="Ex006/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex007/">
+    <Project Path="Ex007/Ex007.csproj" />
+    <Project Path="Ex007/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex008/">
+    <Project Path="Ex008/Ex008.csproj" />
+    <Project Path="Ex008/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex009/">
+    <Project Path="Ex009/Ex009.csproj" />
+    <Project Path="Ex009/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex010/">
+    <Project Path="Ex010/Ex010.csproj" />
+    <Project Path="Ex010/Tests/Tests.csproj" />
+  </Folder>
+</Solution>

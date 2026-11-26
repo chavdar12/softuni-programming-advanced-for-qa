@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Ex001/">
+    <Project Path="Ex001/Ex001.csproj" />
+    <Project Path="Ex001/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex002/">
+    <Project Path="Ex002/Ex002.csproj" />
+    <Project Path="Ex002/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex003/">
+    <Project Path="Ex003/Ex003.csproj" />
+    <Project Path="Ex003/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex004/">
+    <Project Path="Ex004/Ex004.csproj" />
+    <Project Path="Ex004/Tests/Tests.csproj" />
+  </Folder>
+  <Folder Name="/Ex005/">
+    <Project Path="Ex005/Ex005.csproj" />
+    <Project Path="Ex005/Tests/Tests.csproj" />
+  </Folder>
+</Solution>

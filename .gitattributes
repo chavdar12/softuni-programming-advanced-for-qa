@@ -1,0 +1,33 @@
+# Normalize line endings: LF in the repo and on checkout
+* text=auto eol=lf
+
+# Windows-only scripts keep CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Language-aware diffs
+*.cs     text diff=csharp
+*.csproj text
+*.slnx   text
+*.props  text
+*.targets text
+*.js     text
+*.json   text
+*.md     text diff=markdown
+*.html   text diff=html
+*.css    text diff=css
+
+# Generated
+package-lock.json text -diff linguist-generated
+
+# Binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.dll  binary
+*.exe  binary

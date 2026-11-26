@@ -1,0 +1,53 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esults/
+artifacts/
+*.nupkg
+*.snupkg
+*.binlog
+*.log
+coverage*.xml
+coverage*.json
+coverage*.info
+.coverage/
+
+# IDEs (Rider, Visual Studio, VS Code)
+.idea/
+*.sln.iml
+.vs/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Node
+node_modules/
+npm-debug.log*
+.npm/
+.nyc_output/
+coverage/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

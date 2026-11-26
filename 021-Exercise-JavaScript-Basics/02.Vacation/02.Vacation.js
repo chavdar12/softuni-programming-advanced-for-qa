@@ -1,0 +1,44 @@
+export function solve(groupOfPeople, typeOfGroup, typeOfDay) {
+    let totalAmount = 0;
+
+    if (typeOfGroup === 'Students') {
+        if (typeOfDay === 'Friday') {
+            totalAmount = groupOfPeople * 8.45;
+        } else if (typeOfDay === 'Saturday') {
+            totalAmount = groupOfPeople * 9.8;
+        } else if (typeOfDay === 'Sunday') {
+            totalAmount = groupOfPeople * 10.46;
+        }
+
+        if (groupOfPeople >= 30) {
+            totalAmount *= 0.85;
+        }
+    } else if (typeOfGroup === 'Business') {
+        if (typeOfDay === 'Friday') {
+            totalAmount = groupOfPeople * 10.9;
+        } else if (typeOfDay === 'Saturday') {
+            totalAmount = groupOfPeople * 15.6;
+        } else if (typeOfDay === 'Sunday') {
+            totalAmount = groupOfPeople * 16;
+        }
+
+        if (groupOfPeople >= 100) {
+            const pricePerNight = totalAmount / groupOfPeople;
+            totalAmount = pricePerNight * (groupOfPeople - 10);
+        }
+    } else if (typeOfGroup === 'Regular') {
+        if (typeOfDay === 'Friday') {
+            totalAmount = groupOfPeople * 15;
+        } else if (typeOfDay === 'Saturday') {
+            totalAmount = groupOfPeople * 20;
+        } else if (typeOfDay === 'Sunday') {
+            totalAmount = groupOfPeople * 22.5;
+        }
+
+        if (groupOfPeople >= 10 && groupOfPeople <= 20) {
+            totalAmount *= 0.95;
+        }
+    }
+
+    console.log(`Total price: ${totalAmount.toFixed(2)}`);
+}
